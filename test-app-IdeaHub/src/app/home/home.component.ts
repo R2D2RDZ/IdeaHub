@@ -13,8 +13,8 @@ export class HomeComponent {
   constructor(private cognito:CognitoService){}
 
   private user:IUser = {
-    email: 'diegoantoniolopezruelas@gmail.com',
-    password: 'DiegoAntonio1',
+    email: '',
+    password: '',
     code: '',
     name: null
   }
